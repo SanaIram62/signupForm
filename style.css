@@ -1,0 +1,78 @@
+
+ body {
+   padding: 0;
+   margin: 0;
+   background-color: #1b1b1b;
+ }
+ input {
+
+   padding:5px;
+   width: 250px;
+   border-radius:5px;
+   border-bottom: 1px solid #ecd77e;
+   background-color: transparent;
+   border-top : transparent;
+   border-left: transparent;
+   border-right: transparent;
+   outline: none;
+   color:#ecd77e;
+ }
+ label {
+   position:relative;
+   top:4px;
+   width:200px;
+   width:150px;
+   float:left;
+   color:#ecd77e;
+ }
+ #regForm {
+     margin: 100px auto;
+     padding-left:30px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     padding-right: 50px;
+     width: 50%;
+     min-width: 300px;
+     background-color: #1b1b1b;
+   }
+ #wrapper {
+   width:500px;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   background-color: transparent;
+   padding: 20px;
+ }
+ #errors {
+   font-size: 13px;
+   color: red;
+
+   padding-left: 135px;
+ }
+ #success {
+   display : none;
+   color: White;
+   font-weight: bold;
+   font-size: 15px !important;
+   width: auto;
+   padding-left: 135px;
+
+ }
+
+ .form-element {
+   margin-bottom: 15px;
+ }
+ #submitbutton{
+   width: 80px;
+   margin-left:180px;
+
+   color:#ecd77e;
+   outline-color: #ecd77e;
+   background-image:linear-gradient(to right,#ecd77e 20%, #a88020 100%);
+   color: white;
+   border:2px solid #1b1b1b;
+   border-radius: 3px;
+   font-weight: bold;
+
+ }
